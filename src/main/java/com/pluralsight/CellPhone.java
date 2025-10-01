@@ -27,8 +27,8 @@ public class CellPhone {
         return model;
     }
 
-    public void setModel(String model) {
-        this.model = model;
+    public void setModel(String n) {
+        this.model = n;
     }
 
     public String getCarrier() {
@@ -43,7 +43,7 @@ public class CellPhone {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(String model) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
