@@ -35,11 +35,23 @@ public class CellPhone {
         return carrier;
     }
 
+    public void setCarrier(String carrier) {
+        this.carrier = carrier;
+    }
+
     public String getPhoneNumber(){
         return phoneNumber;
     }
 
     public void setPhoneNumber(String model) {
         this.phoneNumber = phoneNumber;
+    }
+
+    public String getOwner() {
+        return owner;
+    }
+
+    public void setOwner(String owner) {
+        this.owner = owner;
     }
 }
