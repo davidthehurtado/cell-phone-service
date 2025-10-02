@@ -23,7 +23,6 @@ public class CellPhoneApplication {
         display(cellPhone2);
         display(cellPhone3);
 
-
         // PHONES CALLING EACH OTHER
         cellPhone1.dial(cellPhone2.getPhoneNumber());
         cellPhone2.dial(cellPhone1.getPhoneNumber());
